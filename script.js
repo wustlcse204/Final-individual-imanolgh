@@ -188,8 +188,8 @@ document.getElementById("GrLeague").addEventListener("click", function () { show
 
 function activateDark(button) {
     document.body.style.backgroundColor = "black";
-    document.getElementById('heading').style.color = "black";
-    document.getElementById('heading').style.backgroundColor = "White";
+    document.getElementById('bigHeader').style.color = "black";
+    document.getElementById('bigHeader').style.backgroundColor = "White";
     document.getElementById('Directions').style.color = 'white';
     button.style.display ="none";
     document.getElementById('white').style.display ="inline-block";
@@ -197,8 +197,8 @@ function activateDark(button) {
 }
 function activateWhite(button) {
     document.body.style.backgroundColor = "white";
-    document.getElementById('heading').style.color = "white";
-    document.getElementById('heading').style.backgroundColor = "rgb(64, 64, 77)";
+    document.getElementById('bigHeader').style.color = "white";
+    document.getElementById('bigHeader').style.backgroundColor = "rgb(64, 64, 77)";
     document.getElementById('Directions').style.color = 'black';
     button.style.display ="none";
     document.getElementById('black').style.display ="inline-block";

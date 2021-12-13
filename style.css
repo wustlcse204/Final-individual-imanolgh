@@ -1,0 +1,68 @@
+body{
+    background-color:white;
+}
+#startofText > h1{
+    text-align:center;
+    color:rgb(73, 73, 73);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    
+}
+#title{
+    text-align:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+}
+#nav-Bar{
+    display:flex;
+    justify-content:center;
+    margin: auto;
+   
+}
+#nav-Bar >span{
+    width:19.5%;
+    text-align:center;
+}
+#nav-Bar > span > p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+}
+#nav-Bar >span:hover{
+    background-color:rgb(235, 114, 114);
+    transition:0.2s;
+}
+#bigHeader{
+    margin-top:-19px;
+    margin-left:-9px;
+    margin-right:-9px;
+    padding-top:19px;
+    background-color:rgb(77, 77, 92);
+    color:white;
+}
+#standingsBin{
+    display:flex;
+    justify-content: center;
+}
+#scorersBin{
+    display:flex;
+    justify-content: center;
+}
+table, th,td{
+    border: 1px solid black;
+    margin-top:15px;
+    border-collapse:collapse;
+}
+td{
+    padding: 10px;
+    border:0;
+}
+tr:hover{
+    background-color:rgb(216, 216, 216);
+}
+table{
+    background-color:white;
+}
+th{
+    background-color:rgb(78, 78, 82);
+    color:white;
+}

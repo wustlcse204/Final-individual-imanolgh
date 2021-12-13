@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Soccer Standings</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="bigHeader">
+            <div id="title">
+                <h1><strong>Soccer Standings</strong></h1>
+                <button style="font-size: 25px; font-family:'Courier New', Courier, monospace;" id="black"onclick="activateDark(this);">Dark Mode</button>
+                <button style="font-size: 25px; font-family: 'Courier New', Courier, monospace; text-align: center;display: none;" id="white" onclick="activateWhite(this);">Normal Mode</button>
+            </div>
+            <div id="nav-Bar">
+                <span id="EngLeague">
+                    <p><strong>English Premier League</strong></p>
+                </span>
+                <span id="FrLeague">
+                    <p><strong>French League</strong></p>
+                </span>
+                <span id="SpLeague">
+                    <p><strong>Spanish League</strong></p>
+                </span>
+                <span id="GrLeague">
+                    <p><strong>German League</strong></p>
+                </span>
+                <span id="ItLeague">
+                    <p><strong>Italian League</strong></p>
+                </span>
+            </div>
+        </div>
+        <!--  End of Header -->
+        <div id="startofText">
+            <h1 id='Directions'><strong>Click on one of the leagues above to see its standings and top goal-scorers!</strong></h1>
+        </div>
+        <div id = "standingsBin">
+
+        </div>
+        <div id="scorersBin">
+
+        </div>
+    </body>
+    <script src ="script.js"></script>
+</html>

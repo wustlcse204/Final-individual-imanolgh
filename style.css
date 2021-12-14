@@ -48,21 +48,21 @@ body{
     justify-content: center;
 }
 table, th,td{
-    border: 1px solid black;
-    margin-top:15px;
-    border-collapse:collapse;
+    border: 0.9px solid black;
+    margin-top:14px;
+    border-collapse: collapse;
 }
 td{
-    padding: 10px;
-    border:0;
+    padding: 9px;
+    border:0px;
 }
 tr:hover{
-    background-color:rgb(216, 216, 216);
+    background-color:white;
 }
 table{
     background-color:white;
 }
 th{
-    background-color:rgb(78, 78, 82);
-    color:white;
+    background-color:rgb(94, 94, 99);
+    color: rgb(255, 255, 255);
 }

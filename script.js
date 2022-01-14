@@ -1,3 +1,5 @@
+document.getElementById("standingsText").style.display = 'none';
+document.getElementById("TGStext").style.display = 'none';
 function shownUser(id) {
     document.getElementById("startofText").style.display ="none";
     var apiLink = "https://api.football-data.org/v2/competitions/" + id + "/standings?standingType=TOTAL";
@@ -8,6 +10,7 @@ function shownUser(id) {
             var table = JSONreturn.standings[0].table;
             clear();
             tableLoad();
+            document.getElementById("standingsText").style.display = 'block';
             i = 0;
             while (i < table.length) {
                 let Row = document.createElement("tr");
@@ -70,8 +73,8 @@ function shownUser(id) {
         if (this.readyState == 4 && this.status == 200) {
             var JSONreturn = JSON.parse(this.responseText);
             var table = JSONreturn.scorers;
-            
             showScorers();
+            document.getElementById("TGStext").style.display = 'block';
             i = 0;
             while (i < table.length) {
                 let Row = document.createElement("tr");
@@ -188,6 +191,8 @@ document.getElementById("GrLeague").addEventListener("click", function () { show
 
 function activateDark(button) {
     document.body.style.backgroundColor = "black";
+    document.getElementById('standingsText').style.color = "White";
+    document.getElementById('TGStext').style.color = "White";
     document.getElementById('bigHeader').style.color = "black";
     document.getElementById('bigHeader').style.backgroundColor = "White";
     document.getElementById('Directions').style.color = 'white';
@@ -197,8 +202,10 @@ function activateDark(button) {
 }
 function activateWhite(button) {
     document.body.style.backgroundColor = "white";
+    document.getElementById('standingsText').style.color = "rgb(77, 77, 92)";
+    document.getElementById('TGStext').style.color = "rgb(77, 77, 92)";
     document.getElementById('bigHeader').style.color = "white";
-    document.getElementById('bigHeader').style.backgroundColor = "rgb(64, 64, 77)";
+    document.getElementById('bigHeader').style.backgroundColor = "rgb(16, 155, 58)";
     document.getElementById('Directions').style.color = 'black';
     button.style.display ="none";
     document.getElementById('black').style.display ="inline-block";

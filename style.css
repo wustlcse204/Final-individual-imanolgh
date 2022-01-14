@@ -36,13 +36,32 @@ body{
     margin-left:-9px;
     margin-right:-9px;
     padding-top:19px;
-    background-color:rgb(77, 77, 92);
+    background-color:rgb(16, 155, 58);
     color:white;
 }
+#standingsText {
+    text-align: center;
+    color:rgb(73, 73, 73);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    display:inline-block;
+  
+}
+
 #standingsBin{
     display:flex;
     justify-content: center;
 }
+
+#TGStext {
+    text-align: center;
+    color:rgb(73, 73, 73);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    display:inline-block;
+  
+}
+
 #scorersBin{
     display:flex;
     justify-content: center;

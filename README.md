@@ -1,5 +1,3 @@
-# 10-final-project-individual-imanolgh
-10-final-project-individual-imanolgh created by GitHub Classroom
 Welcome, and thank you for taking the time to review my final project that I created for my Web Development course I took at Washington University in St. Louis.
 In the repository you will find 3 files, one with HTML code, another with CSS code, and a third with Javascript code.
 The purpose of this project was to create a webpage that could display the standings and top goal-scorers of Europe's top 5 soccer leagues: 
